@@ -1,0 +1,18 @@
+
+<form  method="POST" action="/Update">
+    <label for="id">ID</label><br>
+    <input type="text" name="id" value="<%= datas._id %>"><br>
+    <label for="EnableFCM">EnableFCM</label><br>
+    <input type="text" name="EnableFCM" value="<%= datas.EnableFCM %>"><br>
+    <label for="Avatar">Avatar</label><br>
+    <input type="text" name="Avatar" value="<%= datas.Avatar %>"><br>
+    <label for="Banner">Banner</label><br>
+    <input type="text" name="Banner" value="<%= datas.Banner %>"><br>
+    <label for="Fullname">Fullname</label><br>
+    <input type="text" name="Fullname" value="<%= datas.Fullname %>"><br>
+    <label for="TypeUser">TypeUser</label><br>
+    <input type="text" name="TypeUser" value="<%= datas.TypeUser %>" ><br>
+    <label for="IdProvince">IdProvince</label><br>
+    <input type="text" name="IdProvince" value="<%= datas.IdProvince %>" ><br>
+    <input type="submit" value="Update">
+    </form>
